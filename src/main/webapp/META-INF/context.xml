@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<!-- DBCP 설정을 위한 context.xml 파일 설정 -->
+
+	<Resource
+		name="jdbc/MySQL"
+		auth="Container"
+		type="javax.sql.DataSource"
+		driverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/funweb"
+		username="root"
+		password="1234"
+		maxActive="500"
+		maxIdle="100"
+	/>
+	
+</Context>
+
+
