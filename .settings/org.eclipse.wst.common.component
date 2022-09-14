@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="semiP_kjy">
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
+        <dependent-module archiveName="mysql-connector-java-8.0.30.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/mysql-connector-java-8.0.30/mysql-connector-java-8.0.30">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <dependent-module archiveName="cos-05Nov2002.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/cos-05Nov2002/cos-05Nov2002">
+                        
+            <dependency-type>uses</dependency-type>
+                    
+        </dependent-module>
+                
+        <property name="java-output-path" value="/semiP_kjy/build/classes"/>
+        <property name="context-root" value="semiP_kjy"/>
+            
+    </wb-module>
+    
+</project-modules>

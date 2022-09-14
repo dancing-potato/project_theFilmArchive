@@ -1,0 +1,387 @@
+@charset "UTF-8";
+
+
+#sub_menu{
+	width: 238px;
+	height: 300px;
+	float: left;
+	margin: 20px;
+}
+#sub_menu ul{
+	margin: 20px 0 0 10px;
+	list-style: none;
+}
+#sub_menu a{
+	text-decoration: none;
+	color: #666;
+	display: block;
+	height: 15px;
+	width: 150px;
+	padding: 7px;
+	
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	
+	background-image: url("../images/bullet.gif");
+	background-repeat: no-repeat;
+	background-position: right center; 
+}
+
+#sub_menu a:hover{
+	color: #0d6efd;
+	background-image: url("../images/bullet_orange.gif");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+/* login 본문 */
+#login{
+	float:right;
+	margin:20px 64px 0 0;
+	font-family :Arial;
+	font-size: 12px;
+	word-spacing: 5px;
+}
+#login a{
+	
+	text-decoration: none;
+	color: #333;
+}
+#login a:hover{
+	color: #0d6efd;
+}
+
+
+
+/* member join 본문 */
+article{
+	float: center;
+	width: 900px;
+	padding-right: 150px;
+	padding-left: 400px;
+	padding-bottom: 30px;
+	font-size: 1em;
+	line-height: 1.5em
+	
+}
+article h1{
+	width: 500px;
+	font-family: "NewYork";
+	font-size: 50px;
+	color: #CCC;
+	margin-bottom: 30px;
+    margin-top: 50px;
+	font-weight: normal;
+}
+
+form#join{
+	margin: 40px 0 0 0;
+	padding: 20px;
+	width: 670px;
+	height: 670px;
+}
+
+
+form#join fieldset{
+	padding: 10px 0 20px 5px;
+	border: none;
+}
+form#join fieldset legend{
+	
+	font-size: 20px;
+	border-bottom: 1px dotted #666;
+	width: 600px;
+	padding: 5px 0;
+}
+form#join label{
+	
+	width: 140px;
+	float: left;
+}
+form#join input{
+	margin:5px 0;
+	border:1px solid #adb5bd;
+	background-color: #e9f3f5;
+	border-radius: 3px;
+}
+form#join input.id{
+	width:160px;
+	height: 20px;
+}
+form#join input.dup{
+	text-align: center;
+	width: 120px;
+	height: 23px;
+	border-radius: 8px;
+	border: double;
+	margin: 0 0 0 5px;
+	font-weight: bold;
+	color: gray;
+/* 	background-image: url("../images/member/dup.jpg"); */
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+
+article #checkId {
+	color: BLUE;
+}
+
+
+form#join #buttons .submit,form#join #buttons .cancel{
+	height: 30px;
+	width: 150px;
+	border: 1px solid #666;
+	border-radius: 10px;
+	font-size: 14px;
+	box-shadow: 3px 3px 2px #CCC;
+	
+}
+form#join #buttons .submit{
+	color: gray;
+	font-weight: bold;
+/* 	background-image: url("../images/member/submit_back.jpg"); */
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+form#join #buttons .submit:hover{
+	color: #0d6efd;
+}
+form#join #buttons .cancel{
+	color: gray;
+	font-weight: bold;
+/* 	background-image: url("../images/member/cancel_back.jpg"); */
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+
+form#join #buttons .cancel:hover{
+	color: #0d6efd;
+}
+/* rgb(64, 0, 128)----------------------------------------- */
+
+article table#notice{
+	width: 900px;
+	margin-top: 120px;
+	border-collapse: collapse; 
+}
+article table#notice th{
+	text-align: center;
+	height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+	border-bottom : 1px dotted #999;
+	color: black;
+	
+}
+article table#notice td{
+	text-align: center;
+	padding: 6px 0;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+}
+article table#notice td.left{
+	text-align: left;
+}
+article th.tno{
+	width: 50px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+article th.ttitle{
+	width: 400px;
+	letter-spacing: 0.7em;
+}
+article th.twrite{
+	width: 100px;
+}
+article th.tdate{
+	width: 100px;
+}
+article th.tread{
+	width: 50px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+
+
+article #table_search{
+	
+	width: 600px;
+	margin: 15px 0 10px 0;
+	float: right;
+}
+
+#table_search .input_box{
+	
+	
+	height: 20px;
+	width: 200px;
+	    margin: 0 0 0 3px;
+	border-radius: 10px;
+	background-color: #e9f3f5;
+	border: 1px solid #adb5bd;
+	
+}
+
+#table_search .btn2{
+	
+	float: right;
+	padding: 2px;
+	margin: 0 0 0 5px;
+	width: 80px;
+	height: 23px;
+	border: 1px solid #adb5bd;
+	border-radius: 10px;
+	color: gray;
+	background-color: #e9f3f5;
+	background-image: url("../images/center/t_back.jpg");
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+
+
+#table_search .warn{
+	
+	width:80px;
+	height:23px;
+	float: right;
+	margin: 0 0 0 5px;
+	border: 1px solid #c40000;
+	border-radius: 10px;
+	color: white;
+	background-color: #c40000;
+	background-image: url("../images/siren_icon.png") ;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 20px;
+	
+	
+}
+
+#table_search .btn{
+	
+	
+	padding: 2px;
+	margin: 0 0 23px 3px;
+	width: 90px;
+	height: 23px;
+	border: 1px solid #adb5bd;
+	border-radius: 10px;
+	color: gray;
+	background-color: #e9f3f5;
+	background-image: url("../images/center/t_back.jpg");
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+
+
+
+#page_control{
+	text-align: center;
+	margin: 20px 0 0 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+#page_control a{
+	padding: 2px 5px;
+	text-decoration: none;
+	color: #333;
+	margin: 0 5px;
+}
+#page_control a:hover{
+	font-weight: bold;
+	color: #0d6efd;
+	text-decoration: underline;
+}
+article table#notice tr:hover{
+	background-color: #EEFDFF;
+	cursor: pointer;
+	cursor: hand;
+}
+
+
+.cttbtn.submit{
+	
+	height: 30px;
+	width: 60px;
+	margin-right:5px;
+	margin-left: 10px;
+	border: 1px solid #666;
+	border-radius: 10px;
+	font-size: 14px;
+	box-shadow: 3px 3px 2px #CCC;
+	float: left;
+}
+.cttbtn.submit :hover{
+	color: #0d6efd;
+}
+
+.reply_btn {
+	
+		width: 80px;
+		height: 24px;
+		color: #fff;
+		background: #004fff;
+		font-size: 13px;
+		border: none;
+		border-radius: 20px;
+}
+
+.reply_btn:focus {
+	
+	outline:0;
+}
+
+.reply_btn:hover{
+	
+	background:rgba(0,79,255,0.9);
+	cursor: pointer;
+	box-shadow: 0 2px 2px rgba(0,79,255,0.6);
+	
+}
+
+.mailingbox{
+	
+	width: 300px;
+	border: solid 1px gray;
+	
+	
+}
+/* ----------------------------------- */
+
+article p{
+	padding-left: 10px;
+}
+figure.ceo{
+	float: right;
+	margin: 5px;
+}
+figcaption{
+	text-align: center;
+	color: #39F;
+}
+
+
+/* footer */
+footer{
+	margin: 50px 0 0 0;
+	text-align: center;
+	height: 100px;
+	background-image: url("../images/logo_mine.gif");
+	background-repeat: no-repeat;
+	background-position: 40px center;
+	font-size: 13px;
+	
+	}
+footer hr{
+	width: 100vw;
+	margin: 0 0 0 20px;
+	}
+	
+footer #text{
+	padding-top: 20px;
+}
+

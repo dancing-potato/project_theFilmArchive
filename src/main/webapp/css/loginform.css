@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body {
+	background-color: gray;
+}
+
+
+
+div#wrap {
+	
+  border: 2px solid #C4C4C4;
+  border-radius: 5px;
+  
+}

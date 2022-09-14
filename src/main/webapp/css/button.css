@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+/* 신고하기 폼 */
+	fieldset {
+	
+		border-color: red;
+    	display: grid;
+		
+	}
+	
+	fieldset legend{
+	
+		text-align: center;
+		font-weight: bold;
+		color: red;
+	
+	}
+	
+	.warn_btn{
+	
+		display: flex;
+		justify-content: center;
+		
+	}
+	.warn_btn #report_btn,#close{
+	
+		margin-right:10px;
+		margin-left:10px;
+		
+	}
+	
+	.warn_btn #close{
+	
+		border-radius: 20px;
+		background-color: gray;
+		border: none;
+		color: white;
+		
+	
+	}
+	
+	.warn_btn #report_btn{
+	
+		border-radius: 20px;
+		background-color: #c32424;
+		border: none;
+		color: white;
+		font-weight: bold;
+	}
+	
+	.warn_btn #report_btn:hover{
+	
+		border-radius: 20px;
+		background-color: #c32424;
+		border: none;
+		color: white;
+		font-weight: bold;
+		box-shadow: 0px 2px 2px #c32423;
+	}
+	
+	
+	
+	label {
+	
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-size: 14px;
+	
+	}
+	
+	input[readonly] {
+	background-color: #e9e9e9;
+	}
+
+	
+	
+	
+	/* 관리자페이지 버튼들 */
+	
+	.admin_btn {
+	
+		display: flex;
+		justify-content: right;
+		
+	}
+	
+	#processing_update{
+	
+		font-weight: bold;
+		margin:2px;
+	
+	}
+	
+	#proc {
+	
+	color: green;
+	font-weight: bold;
+	
+	}
+	
+	#comp {
+	
+	color: red;
+	font-weight: bold;
+	
+	}
+	

@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@font-face{
+	font-family: 'NewYork';
+	src:url('./fonts/NewYork.otf') format(opentype);
+	font-family: 'NanumGothic';
+	src:url('./fonts/NanumGothic.ttf') format(truetype);
+	font-family: 'Raleway-Regular';
+	src:url('./fonts/Raleway-Regular.ttf') format(truetype);
+}
+
+
+body{
+	
+	font-family: "NewYork";
+	margin: 0px;
+	padding: 0px;
+	font-size: 0.75em;
+	line-height: 1.2em;
+	color: #333;
+	text-shadow: 2px 2px gray;
+}
+
+#wrap{
+	
+	margin: 0 auto;
+	min-height: 780px;
+	text-align: left;
+	
+	
+}
+
+#wrap .mid_hr{
+	color: gray;
+	margin: 5px 30px 0px 30px;
+}
+#login{
+	float:right;
+	margin:20px 64px 0 0;
+	font-family :Arial;
+	font-size: 12px;
+	word-spacing: 5px;
+	color:gray;
+}
+#login a{
+	font-family:"Raleway-Regular";
+	text-decoration: none;
+	color: white;
+	text-shadow:none;
+}
+#login a:hover{
+	color: #0d6efd;
+}
+
+.clear{
+	clear: both;
+}
+
+#logo{
+	float: left;
+	width: 240px;
+	height: 100px;
+	margin: 0 0 0 80px;
+}
+
+header{
+	width: 100%;
+	height: 150px;
+	margin: 0px;
+	padding: 0px;
+	background: none;
+	position: fixed;
+	}
+
+nav#top_menu{
+	
+	font-family:"Raleway-Regular";
+	width: 700px;
+	margin: 25px 50px 20px 30px;
+	float: right;
+	text-shadow:none;
+	
+}
+nav#top_menu ul{
+	list-style: none;
+	font-size: 13px;
+	font-weight: 100;
+	color: #333
+}
+nav#top_menu li{
+	float: left;
+	margin: 0 5px;
+}
+nav#top_menu a{
+	text-decoration: none;
+	display: block;
+	height: 20px;
+	padding: 10px;
+	color: white;
+	font-size: 14px;
+	
+}
+nav#top_menu a:hover{
+	color:  #0d6efd;
+	background-image: url("../images/blue.gif");
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+
+
+/* footer */
+footer{
+	font-family:"Raleway-Regular";
+	background-color:#fff;
+	margin: 0px;
+	height: 100px;
+	text-align: center;
+	font-size: 15px;
+	text-shadow:none;
+	
+	}
+footer hr{
+	width: 100%;
+	align-items: center;
+	margin: 0 0 30px 0px;
+	}
+footer #copy{
+	width:450px;
+	margin: 20px 0 0 190px;
+	float: left;
+}
+footer #social{
+	width: 130px;
+	margin: 20px 20px 0 0;
+	float: right;
+}
+footer #social img{
+	margin: 0 7px;
+}

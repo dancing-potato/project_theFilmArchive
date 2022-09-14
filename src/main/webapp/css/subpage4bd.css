@@ -1,0 +1,272 @@
+@charset "UTF-8";
+
+
+#sub_menu{
+	width: 238px;
+	height: 300px;
+	float: left;
+	margin: 20px;
+}
+#sub_menu ul{
+	margin: 20px 0 0 10px;
+	list-style: none;
+}
+#sub_menu a{
+	text-decoration: none;
+	color: #666;
+	display: block;
+	height: 15px;
+	width: 150px;
+	padding: 7px;
+	
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+	
+	background-image: url("../images/bullet.gif");
+	background-repeat: no-repeat;
+	background-position: right center; 
+}
+
+#sub_menu a:hover{
+	color: #0d6efd;
+	background-image: url("../images/bullet_orange.gif");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+/* login 본문 */
+#login{
+	float:right;
+	margin:20px 64px 0 0;
+	font-family :Arial;
+	font-size: 12px;
+	word-spacing: 5px;
+}
+#login a{
+	
+	text-decoration: none;
+	color: #333;
+}
+#login a:hover{
+	color: #0d6efd;
+}
+
+
+
+/* member join 본문 */
+article{
+	float: center;
+	width: 900px;
+	padding-right: 150px;
+	padding-left: 400px;
+	padding-bottom: 30px;
+	font-size: 1em;
+	line-height: 1.5em
+}
+
+
+
+/* rgb(64, 0, 128)----------------------------------------- */
+
+article table#notice{
+	width: 900px;
+	margin-top: 120px;
+	border-collapse: collapse; 
+}
+article table#notice th{
+	text-align: center;
+	height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 5px;
+	background-color: #e9f3f5;
+	color: black;
+}
+article table#notice td{
+	text-align: center;
+	padding: 6px 0;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #999;
+}
+article table#notice td.left{
+	text-align: left;
+}
+article th.tno{
+	width: 50px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+article th.ttitle{
+	width: 400px;
+	letter-spacing: 0.7em;
+}
+article th.twrite{
+	width: 100px;
+}
+article th.tdate{
+	width: 100px;
+}
+article th.tread{
+	width: 50px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+
+article #contactus{
+	
+	margin-left: 150px;
+	
+}
+
+#contactus fieldset{
+	
+	
+	width: 300px;
+    margin-right: 160px;
+	
+}
+
+#contactus fieldset label{
+	text-align: center;
+	
+}
+
+article #table_search{
+	
+	width: 600px;
+	margin: 15px 0 10px 0;
+	float: center;
+}
+
+#table_search .input_box{
+	
+	
+	height: 20px;
+	width: 300px;
+	    margin: 0 0 0 3px;
+	border-radius: 10px;
+	background-color: #e9f3f5;
+	border: 1px solid #adb5bd;
+	
+}
+
+#table_search .btn2{
+	font-weight: bold;
+	float: right;
+	padding: 2px;
+	margin: 0 0 0 5px;
+	width: 90px;
+	height: 23px;
+	border: 1px solid #adb5bd;
+	border-radius: 10px;
+	color: gray;
+	background-color: #e9f3f5;
+	background-image: url("../images/center/t_back.jpg");
+	background-repeat: repeat-x;
+	background-position: center center;
+	
+}
+
+.search_fr {
+	
+	width: 700px;
+	margin-left: 300px;
+	
+}
+
+
+#table_search .btn{
+	
+	
+	padding: 2px;
+	margin: 0 0 23px 5px;
+	width: 90px;
+	height: 23px;
+	border: 1px solid #adb5bd;
+	border-radius: 10px;
+	color: gray;
+	background-color: #e9f3f5;
+	background-image: url("../images/center/t_back.jpg");
+	background-repeat: repeat-x;
+	background-position: center center;
+}
+
+
+
+#page_control{
+	text-align: center;
+	margin: 20px 0 0 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+#page_control a{
+	padding: 2px 5px;
+	text-decoration: none;
+	color: #333;
+	margin: 0 5px;
+}
+#page_control a:hover{
+	font-weight: bold;
+	color: #0d6efd;
+	text-decoration: underline;
+}
+article table#notice tr:hover{
+	background-color: #EEFDFF;
+	cursor: pointer;
+	cursor: hand;
+}
+
+
+.cttbtn #cttbtn1{
+	
+	height: 30px;
+	width: 60px;
+	margin-right:5px;
+	border: 1px solid #666;
+	border-radius: 10px;
+	font-size: 14px;
+	box-shadow: 3px 3px 2px #CCC;
+}
+.cttbtn #cttbtn1:hover{
+	color: #0d6efd;
+}
+
+
+/* ----------------------------------- */
+
+article p{
+	padding-left: 10px;
+}
+figure.ceo{
+	float: right;
+	margin: 5px;
+}
+figcaption{
+	text-align: center;
+	color: #39F;
+}
+
+
+/* footer */
+footer{
+	margin: 50px 0 0 0;
+	text-align: center;
+	height: 100px;
+	background-image: url("../images/logo_mine.gif");
+	background-repeat: no-repeat;
+	background-position: 40px center;
+	font-size: 13px;
+	position: relative;
+	
+	}
+footer hr{
+	width: 100%;
+	margin: 0 0 0 20px;
+	}
+	
+footer #text{
+	padding-top: 20px;
+}
+
