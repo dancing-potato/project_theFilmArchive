@@ -16,7 +16,7 @@ public class GoogleSMTPAuthenticator extends Authenticator {
 		// => 지메일 기준 2단계 인증 미사용시 계정명, 패스워드 전달
 		// => 지메일 기준 2단계 인증 사용시 계정명, 패스워드 대신 2단계인증을
 		//	  우회하는 앱비밀번호 전달
-		passwordAuthentication = new PasswordAuthentication("raisondetre217", "fjezuhmpljupbgtk");
+		passwordAuthentication = new PasswordAuthentication("아이디", "인증용 패스워드정보");
 	}
 
 	// 인증 정보를 관리하는 passwordAuthentication 객체를 외부로 리턴하는 getPasswordAuthentication() 메서드 오버라이딩
